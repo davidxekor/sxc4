@@ -1,17 +1,2 @@
-<head>
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfGZCcoAAAAAF5DdRBklpcp4PVcgAxtYT_kPNTg"></script>
-...
-</head>
 
-<script>
-function onClick(e) {
-  e.preventDefault();
-  grecaptcha.enterprise.ready(async () => {
-    const token = await grecaptcha.enterprise.execute('6LfGZCcoAAAAAF5DdRBklpcp4PVcgAxtYT_kPNTg', {action: 'LOGIN'});
-    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
-    // reCAPTCHA Enterprise to the end user's browser.
-    // This token must be validated by creating an assessment.
-    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
-  });
-}
-</script>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Positivus</title><script defer="defer" src="/static/js/main.d40c345e.js"></script><link href="/static/css/main.6648b6eb.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
