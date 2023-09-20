@@ -6,17 +6,13 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
 
-  apiKey: "AIzaSyDXPHpPB-Kk3lwob_TNc1Q8L6-1-wCJxyw",
-
-  authDomain: "urls-swaping.firebaseapp.com",
-
-  projectId: "urls-swaping",
-
-  storageBucket: "urls-swaping.appspot.com",
-
-  messagingSenderId: "71213527826",
-
-  appId: "1:71213527826:web:ddcdc367cb957f33a979cb"
+  apiKey: "AIzaSyCOmTnd8Md2yK0SVEwI1l6VbV1M7N8ySaA",
+  authDomain: "magneti1001.firebaseapp.com",
+  projectId: "magneti1001",
+  storageBucket: "magneti1001.appspot.com",
+  messagingSenderId: "596941070186",
+  appId: "1:596941070186:web:e9af3e1e5ecb7459e80f13",
+  measurementId: "G-Z02PPN0HRS"
 
 };
 
